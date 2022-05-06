@@ -1,0 +1,22 @@
+{
+  "name": "discord-ban",
+  "version": "1.0.0",
+  "description": "サーバーに参加していないユーザーをBANする為だけのDiscord Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekodayo2222/discord-ban.git"
+  },
+  "author": "Katsunori Kuroda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekodayo2222/discord-ban/issues"
+  },
+  "homepage": "https://github.com/nekodayo2222/discord-ban#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
