@@ -1,20 +1,54 @@
-# discord-ban
-サーバーに参加していないユーザーをBANする為だけのDiscord Bot.
+<h1 align="center">Welcome to discord-ban 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/nekodayo2222/discord-ban#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/nekodayo2222/discord-ban/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/nekodayo2222/discord-ban/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/nekodayo2222/discord-ban" />
+  </a>
+</p>
 
-## 動作確認済環境
-Raspberry Pi 3 Model B+
-Ubuntu Server 20.04 LTS
-Node.js v16.14.2
-NPM v8.8.0
-Discord.js v12.5.3
+> サーバーに参加していないユーザーをBANする為だけのDiscord Bot.
 
-## セットアップ
-1. config-template.jsonをconfig.jsonにリネーム
-2. config.json内のDISCORD-BOT-TOKENを使用するBotアカウントのトークンに置き換え
-3. npm installでDiscord.jsをインストール
-4. node index.jsまたはnpm startで起動
+### 🏠 [Homepage](https://github.com/nekodayo2222/discord-ban#readme)
 
-## 使い方
-1. Botをサーバーに追加
-2. d!ban ユーザーID(@メンション でも可)を入力後、60秒以内に理由を送信
-3. Botから「@〇〇 をBANしました。」とメッセージが返ってきたらBAN完了
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+node index.js
+```
+
+## Run tests
+
+```sh
+node index.js
+```
+
+## Author
+
+👤 **Katsunori Kuroda**
+
+* Website: https://github.com/nekodayo2222
+* Github: [@nekodayo2222](https://github.com/nekodayo2222)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [Katsunori Kuroda](https://github.com/nekodayo2222).<br />
+This project is [MIT](https://github.com/nekodayo2222/discord-ban/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
